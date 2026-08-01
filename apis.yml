@@ -1,7 +1,23 @@
 aid: public-goods
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/public-goods.png
 name: Public Goods
-description: Public Goods is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Public Goods is a direct-to-consumer e-commerce retailer selling household essentials, personal
+  care, and home products under its own private label, with an emphasis on natural formulations, simplified
+  ingredient lists, minimalist packaging, and sustainable sourcing. The company operates a membership model
+  (an annual fee unlocking member pricing, free shipping, and store credit) and a wholesale channel. It was
+  surfaced as a portfolio company of 500 Global and added to the API Evangelist network. As a consumer retail
+  brand it publishes no developer API, SDK, or technical documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/public-goods/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- E-commerce
+- Retail
+- Consumer Goods
+- Household
+- Personal Care
+- Sustainability
+- Direct to Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,18 @@ maintainers:
 common:
 - type: Website
   url: https://publicgoods.com
+- type: Support
+  url: https://publicgoods.com/pages/contact
+- type: HelpCenter
+  url: https://publicgoods.com/pages/faq
+- type: TermsOfService
+  url: https://publicgoods.com/pages/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://publicgoods.com/pages/privacy-policy
+- type: DomainSecurity
+  url: security/public-goods-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
