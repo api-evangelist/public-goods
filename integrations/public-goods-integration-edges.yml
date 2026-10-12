@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/public-goods/integrations
+- https://n8n.io/integrations/public-goods/
+- https://composio.dev/toolkits/public-goods
+- https://monid.ai/tools/public-goods
+checked:
+- https://composio.dev/toolkits/public-goods
+- https://monid.ai/tools/public-goods
+- https://n8n.io/integrations/public-goods/
+- https://zapier.com/apps/public-goods/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
