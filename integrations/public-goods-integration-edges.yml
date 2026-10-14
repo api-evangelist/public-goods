@@ -1,16 +1,33 @@
 generated: '2026-10-12'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/public-goods/integrations
 - https://n8n.io/integrations/public-goods/
 - https://composio.dev/toolkits/public-goods
 - https://monid.ai/tools/public-goods
 checked:
+- guesty/integrations/guesty-integration-edges.yml
 - https://composio.dev/toolkits/public-goods
 - https://monid.ai/tools/public-goods
 - https://n8n.io/integrations/public-goods/
 - https://zapier.com/apps/public-goods/integrations
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: Guesty (own)
+  partner: guesty
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.guesty.com/marketplace-items/public-goods/
+  mirror_of: guesty/integrations/guesty-integration-edges.yml
+  apps:
+  - Public Goods
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
 templates: []
